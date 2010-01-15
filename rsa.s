@@ -1,4 +1,4 @@
-(define N 200)
+(define N 100)
 (define (makee p q n)
   (if (= (gcd n (* (- p 1) (- q 1))) 1)
       n
